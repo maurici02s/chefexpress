@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "pi",
+			"path": "."
+		},
+		{
+			"name": "CSS",
+			"path": "../../../Users/mauri/Downloads/SITE PI (1)/CSS"
+		}
+	],
+	"settings": {
+		"php.stubs": [
+			"*",
+			"wordpress"
+		]
+	}
+}

@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    a { color: inherit; } 
+
+}
+
+body{
+        background-color: #F7EFED;
+}
+
+header{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 100px;
+}
+
+header figure img{
+    width: 70px;
+}
+
+.info ul {
+    display: flex;  
+    flex-direction: row;
+    font-size: 16px;
+    gap: 100px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.home a{
+    color: #f50e0a;
+}
+
+.sobre a{
+    color: #333333;
+}
+
+.servicos a{
+    color: #333333;
+}
+.entrar{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f50e0a;
+    color: white;
+    border-radius: 100px;
+    border: 0;
+    padding: 15px 80px;
+    cursor: pointer;
+}
+
+a { 
+    color: currentColor;
+ } 
+
+article button:hover{
+    background-color: #fc3431;
+}
+
+header button:hover{
+    background-color: #fc3431;
+}
+
+.info_negocio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.entregador figure img{
+    width: 800px;
+    margin-left: 470px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-bottom: 200px;
+    margin-right: 470px;
+    position: absolute;
+
+}
+
+.apresentacao h1{
+    color: #333333;
+    font-size: 56px;
+    max-width: 500px;
+}
+
+.apresentacao p{
+    color: #333333;
+    max-width: 500px;
+    opacity: 70%;
+    font-size: 16px;
+}
+
+
+.cadastrar{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f50e0a;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 80px;
+    cursor: pointer;
+}
+
+.info_delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.info_delivery h2{
+    color: #333333;
+    font-size: 40px;
+    max-width: 500px;
+
+}
+
+.info_delivery p{
+    opacity: 70%;
+    max-width: 400px;
+}
+
+.info_delivery figure img{
+    width: 600px
+}
+
+.apresentacao_2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+.como_funciona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+.como_funciona figure img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.como_funciona p{
+    max-width: 200px;
+    font-size: 11px;
+    opacity: 70%;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: 6px;
+    margin-bottom: 160px;
+
+}
+
+.como_funciona h3{
+    text-align: center;
+    color: #333333;
+    font-weight: 600;
+
+}
+
+aside{
+    background-color: white;
+}
+
+.perguntas_frequentes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;  
+}
+
+.perguntas_frequentes h2{
+    font-size: 35px ;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333333;
+
+}
+
+section details summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7EFED;
+    padding: 20px 30px;
+    margin-top: 25px;
+    border-bottom: 1px solid #F7EFED;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 600;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+section details p{
+    padding: 30px;
+    color: #333333;
+    opacity: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #F7EFED;
+    margin-top: 0px;
+}
+
+section details summary::after {
+    content: '+';
+    font-size: 45px;
+    font-weight: 300;
+    
+}
+
+section details[open] summary::after {
+    transform: rotate(45deg);
+}
+
+.bnt_fim{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+
+}
+
+.cadastrar_fim{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    color: #f50e0a;
+    border-radius: 4px;
+    border: solid 1px #f50e0a;
+    padding: 15px 80px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.entrar_fim{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f50e0a;
+    border: solid 1px #f50e0a;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    padding: 15px 80px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+
+footer{
+    padding: 80px;
+}
+
+footer p{
+    color: #333333;
+    opacity: 80%;
+}
+
